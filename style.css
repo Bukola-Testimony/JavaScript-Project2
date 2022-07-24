@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     font-family: Poppins ; */
+}
+#hero-section {
+    width: 100%;
+    height: 100vh;
+    background: pink;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    background: #d7d1d1;
+    padding: 40px;
+    border-radius: 1px solid whitesmoke;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+h2{
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase ;
+}
+
+.input-box {
+    width: 100%;
+    padding: 5px;
+}
+.form-row {
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+
+#phone-wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+   
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="option"] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    outline-color: wheat;
+}
+input[type="tel"] {
+    width: 82%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    outline-color: wheat;
+}
+select {
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px;
+    font-weight: 800;
+    border: 1px solid whitesmoke;
+    outline-color: wheat;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 12px;
+    margin-top: 20px;
+    color: white;
+    background-color: pink;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.text-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.error {
+  display: none;
+}
+
+.error2 {
+    font-size: 12px;
+    text-align: right;
+    color: red;
+    margin-top: -20px;
+    display: block;
+}
+
+.phone_number {
+    margin-bottom: 0;
+}
+
+
+.logo {
+/*     position: absolute; */
+    width: 12%;  
+    border-radius: 20px;
+    margin-bottom:-20px ; 
+}
+
+.none {
+    display: none;
+}

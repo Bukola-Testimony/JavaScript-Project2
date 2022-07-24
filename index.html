@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <title>PHONIE</title>
+  <script type="text/javascript" src="script.js" defer>
+
+  </script>
+</head>
+
+<body>
+  <section id="hero-section">
+    <form>
+      <h2> Welcome to Phonie App</h2>
+      <div class="form-row">
+        <div class="input-box">
+          <i class="fa-regular fa-user"></i> <label for="username">User Name</label> <br>
+          <input type="text" id="UserName" placeholder="Enter your Username">
+        </div>
+        <div class="input-box">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+
+        
+        <div id="phone-wrapper">
+          <div class="input-box">
+            <label for="phone number">Phone No</label> <br>     
+  
+            <input type="tel" name="phone number" id="phone_number" class="phone_number" placeholder="+234***********"
+              pattern="^(\+\d{3}|[0-9])\d{10}$" required> 
+             <img src="" class="logo"> <br>
+  
+            
+          </div>
+          
+        </div>
+
+
+
+        
+
+        <p class="error">wrong phone number</p>
+        <div class="input-box">
+          <label for="password">Password</label> <br>
+          <input type="password" id="passsword" placeholder="Enter your password">
+        </div>
+        <button type="submit">LOGIN</button>
+    </form>
+  </section>
+</body>
+
+</html>
